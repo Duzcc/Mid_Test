@@ -1,0 +1,63 @@
+
+.header-container {
+    padding-left: 2rem; /* px-8 */
+    padding-top: 1.5rem; /* pt-6 */
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem; /* mb-6 */
+  }
+  
+  .logo-text {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 800;     /* font-extrabold */
+    color: white;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 2rem;
+    font-size: 0.875rem; /* text-sm */
+    color: #d1d5db;       /* Tailwind's text-gray-300 */
+  }
+  
+  .nav-menu a:hover {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .search-input {
+    background-color: #374151; /* bg-gray-700 */
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    color: white;
+    outline: none;
+  }
+  
+  .search-input::placeholder {
+    color: #9ca3af; /* placeholder-gray-400 */
+  }
+  
+  .search-input:focus {
+    box-shadow: 0 0 0 2px #818cf8; /* ring-indigo-400 */
+  }
+  
+  .explore-section {
+    text-align: left;
+  }
+  
+  .explore-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.25rem; /* mb-1 */
+  }
+  
+  .explore-subtitle {
+    color: #9ca3af; /* text-gray-400 */
+  }
+  
