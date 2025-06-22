@@ -1,33 +1,29 @@
 import React from 'react';
-import './Header.css';
 
 const Header = () => {
   return (
-    <header className="header-container">
-      <div className="header-top">
-        {/* Logo */}
-        <div className="logo-text">Anonime</div>
+    <header className="px-8 pt-6">
+      <div className="flex justify-between items-center mb-6">
 
-        {/* Menu */}
-        <div className="nav-menu">
-          <a href="#">Home</a>
-          <a href="#">List anime</a>
+        <div className="text-3xl font-extrabold text-white">Anonime</div>
+
+        <div className="flex gap-8 text-gray-300 text-sm">
+          <a href="#" className="hover:text-white transition">Home</a>
+          <a href="#" className="hover:text-white transition">List anime</a>
         </div>
 
-        {/* Search */}
         <div>
           <input
             type="text"
             placeholder="Search anime or movie"
-            className="search-input"
+            className="bg-gray-700 text-sm px-4 py-2 rounded-full text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-400"
           />
         </div>
       </div>
 
-      {/* Explore Section */}
-      <div className="explore-section">
-        <h2 className="explore-title">Explore</h2>
-        <p className="explore-subtitle">What are you gonna watch today ?</p>
+      <div className="text-left">
+        <h2 className="text-2xl font-bold text-white mb-1">Explore</h2>
+        <p className="text-gray-400">What are you gonna watch today ?</p>
       </div>
     </header>
   );
