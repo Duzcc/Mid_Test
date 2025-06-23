@@ -1,4 +1,3 @@
-// src/data.js
 import weatherImg from './assets/spy_carousel.png'
 import onePieceImg from './assets/one_piece.png'
 import borutoImg from './assets/boruto.png'
