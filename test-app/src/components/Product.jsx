@@ -17,8 +17,8 @@ const Product = ({ movies, onSelect }) => {
                 alt={anime.movieName}
                 className="w-full h-48 object-cover"
               />
-              <div className="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-black to-transparent flex items-end">
-                <p className="text-white text-sm pb-1">Episode {anime.episode}</p>
+              <div className="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-black to-transparent flex items-center justify-center">
+                <p className="text-white text-sm">Episode {anime.episode}</p>
               </div>
             </div>
             <h4 className="text-white font-semibold text-sm mt-2">
