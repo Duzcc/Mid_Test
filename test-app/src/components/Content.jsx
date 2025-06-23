@@ -4,7 +4,7 @@ const Content = ({ movie }) => {
   return (
     <div className="relative rounded-xl overflow-hidden shadow-lg mb-10">
       <img
-        className="w-full object-cover h-[400px]"
+        className="w-full object-cover h-[350px]"
         src={movie.image}
         alt={movie.movieName}
       />
